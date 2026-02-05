@@ -1,4 +1,4 @@
-import { getAlerts } from '@/lib/airtable';
+import { getAlerts } from '@/lib/supabase';
 
 export default async function handler(req, res) {
   if (req.method === 'GET') {

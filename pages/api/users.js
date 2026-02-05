@@ -1,4 +1,4 @@
-import { getEndUsers } from '@/lib/airtable';
+import { getEndUsers } from '@/lib/supabase'; // Changed from airtable
 
 export default async function handler(req, res) {
   if (req.method === 'GET') {

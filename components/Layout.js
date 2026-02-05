@@ -76,3 +76,10 @@ export default function Layout({ children }) {
     </div>
   );
 }
+const navigation = [
+  { name: 'Dashboard', href: '/' },
+  { name: 'End Users', href: '/users' },
+  { name: 'Alerts', href: '/alerts' },
+  { name: 'Companies', href: '/companies' },
+  { name: 'Network Analysis', href: '/network' }, // ADD THIS
+];

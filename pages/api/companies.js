@@ -1,4 +1,4 @@
-import { getCompanies } from '@/lib/airtable';
+import { getCompanies } from '@/lib/supabase';
 
 export default async function handler(req, res) {
   if (req.method === 'GET') {
